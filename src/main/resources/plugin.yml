@@ -1,0 +1,11 @@
+name: Fullbright
+version: '${project.version}'
+main: net.daechler.fullbright.Fullbright
+api-version: 1.19
+authors: [ Daechler ]
+description: This plugin adds the fullbright effect to a player.
+commands:
+  fullbright:
+    description: Permission to use /fullbright
+    usage: /fullbright
+    permission: fullbright.use
